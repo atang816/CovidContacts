@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Covid Contacts-user</title>
+    <link href="https://fonts.googleapis.com/css2?family=Lora&family=Noto+Serif:wght@700&family=Open+Sans+Condensed:wght@300;700&family=Poppins:wght@500&display=swap" rel="stylesheet">
+    <link rel = "stylesheet" href = "../css/style.css">
+  </head>
+
+  <body class = "signUpBody">
+    <header>
+      <p class="logo">COVID CONTACTS</p>
+
+      <nav>
+        <ul class = "indexlist">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="friends.html">Contact List</a></li>
+          <li><a href="doctor.html">Doctor's Contact</a></li>
+          <li><a href="covidnews.html">Covid News</a></li>
+        </ul>
+        <a href = "user.html" class="user-links">Account</a><br /><br />
+        <a href="signInSignUp.html" class="user-links">Sign Out</a>
+      </nav>
+    </header>
+    <h1 class = "user">User Page</h1>
+
+    <form class="user-display" action="../jsp/displayUser.jsp" method="post">
+      <h4>Display Your Information</h4>
+      Email: <input type="email" class="input-box" placeholder="Email" name="email">
+      Password: <input type="password" class="input-box" placeholder="Password" name="password">
+      <button>View Credentials</button>
+
+    </form>
+    <h4>Click to change your Password</h4>
+      <button class="changePass-button">
+        <a href="passwordRecovery.html">Change Password</a>
+      </button>
+
+    
+
+
+
+  </body>
+</html>

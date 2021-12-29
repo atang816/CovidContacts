@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Covid Contacts-Doctor</title>
+    <meta charset="utf-8">
+    <link href="https://fonts.googleapis.com/css2?family=Lora&family=Noto+Serif:wght@700&family=Open+Sans+Condensed:wght@300;700&family=Poppins:wght@500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../css/doctorstyle.css">
+  </head>
+  <header>
+      <p class="logo">COVID CONTACTS</p>
+
+      <nav>
+        <ul class = "indexlist">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="friends.html">Contact List</a></li>
+          <li><a href="doctor.html">Doctor's Contact</a></li>
+          <li><a href="covidnews.html">Covid News</a></li>
+        </ul>
+        <a href = "user.html" class="user-links">Account</a><br /><br />
+        <a href="signInSignUp.html" class="user-links">Sign Out</a>
+      </nav>
+    </header>
+    <body class = "doctorpage">
+      <h1 class = "doctor">Doctor's Contact</h1>
+
+
+
+      <div class="form-doctor">
+        <form class="display-doctor" action="../jsp/displayDoctor.jsp" method="post">
+          <h4>Display Doctor's Contact</h4>
+          Your ID: <input type="number" name="userDisplayID" id="userDisplayID" /><br /><br />
+          email: <input type="text" name="useremail" id="useremail" /><br /><br />
+          <button>Show Doctor</button>
+        </form>
+      </div>
+
+      <button type="button2" class="schedule-button">
+        <a href="appointment.html">Schedule Appointment</a>
+      </button>
+  </body>
+</html>

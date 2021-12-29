@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="windows-1252">
+  <link href="https://fonts.googleapis.com/css2?family=Lora&family=Noto+Serif:wght@700&family=Open+Sans+Condensed:wght@300;700&family=Poppins:wght@500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="../css/doctorstyle.css">
+  <title>Covid Contacts-appointment</title>
+
+
+</head>
+
+<body class="appointmentpage">
+  <header>
+      <p class="logo">COVID CONTACTS</p>
+
+      <nav>
+        <ul class = "indexlist">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="friends.html">Contact List</a></li>
+          <li><a href="doctor.html">Doctor's Contact</a></li>
+          <li><a href="covidnews.html">Covid News</a></li>
+        </ul>
+        <a href = "user.html" class="user-links">Account</a><br /><br />
+        <a href="signInSignUp.html" class="user-links">Sign Out</a>
+      </nav>
+    </header>
+  <h1 class="appointment">Appointments</h1>
+<form class="insertAppointment" action="../jsp/insertAppointment.jsp" method="post">
+  <h4>Enter an Appointment</h4>
+    Doctor ID: <input type="number" name="doctorID" id="doctor" /><br/><br/>
+    Your ID: <input type="number" name="userID" id="userID" /><br/><br/>
+          Symptoms: <input type="text" name="symptoms" id="symptoms" /><br/><br/>
+          Date: <input type="text" name="time_slot" id="date" /><br/><br/>
+          <button>Submit</button><br/><br/>
+
+</form>
+
+<form class="displayAppointment" action="../jsp/displayAppointment.jsp" method="post">
+  <h4>View Your Appointments</h4>
+  Your ID: <input type="number" name="userID" id="userID" /><br/><br/>
+  <button>View</button>
+</form>
+
+
+</body>
+
+
+
+</html>

@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <link href="https://fonts.googleapis.com/css2?family=Lora&family=Noto+Serif:wght@700&family=Open+Sans+Condensed:wght@300;700&family=Poppins:wght@500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../css/friendstyle.css">
+    <title>Covid Contacts GroupChat</title>
+  </head>
+  <body class="groupChatLayout">
+
+    <header>
+        <p class="logo">COVID CONTACTS</p>
+
+        <nav>
+          <ul class = "indexlist">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="friends.html">Contact List</a></li>
+            <li><a href="doctor.html">Doctor's Contact</a></li>
+            <li><a href="covidnews.html">Covid News</a></li>
+          </ul>
+          <a href = "user.html" class="user-links">Account</a><br /><br />
+          <a href="signInSignUp.html" class="user-links">Sign Out</a>
+        </nav>
+      </header>
+    <h1 class="groupChatHeaders">Group Chat</h1>
+
+
+      <form class="insertGroupName" action="../jsp/insertGroupName.jsp" method="post">
+        <h2 class="groupTextHeaders">Add Group</h2>
+
+          <label for="ownerID">Your ID<label>
+          <input id="ownerIDTextBox" type="text" name="ownerID">
+
+          <label for="newGroup">Group Name<label>
+          <input id="newGroupTextBox" type="text" name="newGroup">
+
+          <button id="addGroupButton">Submit</button>
+      </form>
+
+
+      <form class="insertGroupMembers" action="../jsp/insertGroupMembers.jsp" method="post">
+        <h2 class="groupTextHeaders">Add Member to Group</h2>
+
+          <label for="groupID">Group ID<label>
+          <input id="groupIDTextBox" type="text" name="groupID">
+
+          <label for="groupName">Group Name<label>
+          <input id="groupNameTextBox" type="text" name="groupName">
+
+          <label for="newMemberID">Member ID<label>
+          <input id="newMemberIDTextBox" type="text" name="newMemberID">
+
+
+
+           <button>Submit</button>
+      </form>
+
+      <form class="displayGroup" action="../jsp/displayGroup.jsp" method="post">
+        <h2 class="groupTextHeaders">Display Group</h2>
+
+          <label for="groupID">Group ID<label>
+          <input id="groupIDTextBox" type="text" name="displayGroupID">
+
+          <label for="groupName">Group Name<label>
+          <input id="groupNameTextBox" type="text" name="groupName">
+
+
+           <button>Display</button>
+      </form>
+
+      <form class="deleteGroupName" action="../jsp/deleteGroupName.jsp" method="post">
+        <h2 class="groupTextHeaders">Delete Group</h2>
+        <label for="groupID">Group ID<label>
+        <input id="groupIDTextBox" type="text" name="deleteGroupID">
+        <label for="groupID">Group Name<label>
+        <input id="groupIDTextBox" type="text" name="deleteGroupName">
+        <button>Delete</button>
+
+      </form>
+
+
+
+
+  </body>
+</html>

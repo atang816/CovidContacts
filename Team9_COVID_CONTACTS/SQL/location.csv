@@ -1,0 +1,76 @@
+location_id,city,nation_state,state,user_id
+5,"Santa Cruz",USA,California,1
+6,Tahoe,USA,California,2
+3,"San Francisco",USA,Califonia,3
+2,"Santa Clara",USA,California,4
+2,"Santa Clara",USA,California,5
+4,Fremont,USA,California,6
+1,"San Jose",USA,California,7
+1,"San Jose",USA,California,8
+6,Tahoe,USA,California,9
+3,"San Francisco",USA,Califonia,10
+4,Fremont,USA,California,11
+3,"San Francisco",USA,Califonia,12
+5,"Santa Cruz",USA,California,13
+6,Tahoe,USA,California,14
+1,"San Jose",USA,California,15
+5,"Santa Cruz",USA,California,16
+3,"San Francisco",USA,Califonia,17
+3,"San Francisco",USA,Califonia,18
+2,"Santa Clara",USA,California,19
+1,"San Jose",USA,California,20
+3,"San Francisco",USA,Califonia,21
+2,"Santa Clara",USA,California,22
+1,"San Jose",USA,California,23
+6,Tahoe,USA,California,24
+4,Fremont,USA,California,25
+1,"San Jose",USA,California,26
+6,Tahoe,USA,California,27
+2,"Santa Clara",USA,California,28
+1,"San Jose",USA,California,29
+1,"San Jose",USA,California,30
+5,"Santa Cruz",USA,California,31
+1,"San Jose",USA,California,32
+2,"Santa Clara",USA,California,33
+6,Tahoe,USA,California,34
+6,Tahoe,USA,California,35
+4,Fremont,USA,California,36
+3,"San Francisco",USA,Califonia,37
+5,"Santa Cruz",USA,California,38
+6,Tahoe,USA,California,39
+1,"San Jose",USA,California,40
+5,"Santa Cruz",USA,California,41
+4,Fremont,USA,California,42
+1,"San Jose",USA,California,43
+3,"San Francisco",USA,Califonia,44
+3,"San Francisco",USA,Califonia,45
+3,"San Francisco",USA,Califonia,46
+3,"San Francisco",USA,Califonia,47
+5,"Santa Cruz",USA,California,48
+1,"San Jose",USA,California,49
+5,"Santa Cruz",USA,California,50
+3,"San Francisco",USA,Califonia,51
+3,"San Francisco",USA,Califonia,52
+1,"San Jose",USA,California,53
+4,Fremont,USA,California,54
+2,"Santa Clara",USA,California,55
+2,"Santa Clara",USA,California,56
+4,Fremont,USA,California,57
+5,"Santa Cruz",USA,California,58
+5,"Santa Cruz",USA,California,59
+1,"San Jose",USA,California,60
+2,"Santa Clara",USA,California,61
+6,Tahoe,USA,California,62
+5,"Santa Cruz",USA,California,63
+5,"Santa Cruz",USA,California,64
+6,Tahoe,USA,California,65
+3,"San Francisco",USA,Califonia,66
+4,Fremont,USA,California,67
+4,Fremont,USA,California,68
+4,Fremont,USA,California,69
+1,"San Jose",USA,California,70
+1,"San Jose",USA,California,71
+4,Fremont,USA,California,72
+6,Tahoe,USA,California,73
+4,Fremont,USA,California,74
+5,"Santa Cruz",USA,California,75

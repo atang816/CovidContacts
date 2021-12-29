@@ -1,0 +1,25 @@
+appointment_id,user_id_doc,user_id_p,symptoms,time_slot
+1,17,48,"sinus infection",9/1/2020
+2,4,73,cough,12/19/2020
+3,7,49,"yellow fever",12/17/2020
+4,15,71,unknown,11/18/2020
+5,14,66,depression,10/28/2020
+6,13,53,"broken bone",10/5/2020
+7,14,32,"Common Cold",10/30/2020
+8,2,75,"sinus infection",9/5/2020
+9,20,70,fatigue,10/20/2020
+10,4,28,depression,8/17/2020
+11,7,50,cough,10/17/2020
+12,18,50,hypoglycimea,11/5/2020
+13,10,66,"Common Cold",8/17/2020
+14,19,56,Fever,11/16/2020
+15,14,62,"heart ache",9/11/2020
+16,14,22,Stress,8/15/2020
+17,20,50,Fatigue,8/30/2020
+18,4,50,Soreness,8/18/2020
+19,15,50,Stress,11/14/2020
+20,7,12,"Common Cold",8/10/2020
+21,8,52,"Food Poison",11/22/2020
+22,20,40,Headache,10/10/2020
+23,21,48,Soreness,8/11/2020
+24,13,10,Soreness,8/4/2020
